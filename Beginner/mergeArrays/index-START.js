@@ -13,8 +13,7 @@ function mergeArrays(...arrays) {
     });
 
     return [...new Set([...jointArray])]
-
-    
+ 
 }
 
 
