@@ -7,7 +7,11 @@ e.g palindromeChecker('racecar') // will return true
 
 
 function palindromeChecker(text) {
-    v// Code goes here
+    // Code goes here
+    if (text === text.split('').reverse().join('')){ // split the text, reverse it, then join it again
+        return true
+    }
+    return false
 }
 
 
